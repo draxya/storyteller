@@ -1,5 +1,5 @@
 ## 💻 storyteller
- Phantaso Stories hikaye sunucusu için interaction-sensitive bot.
+ Discord üzerinden choice-based oyun oynamanızı sağlayan bot. Bir hikaye seçer ve kaderinizi belirlersiniz. İyi eğlenceler!
  
 ![Preview](https://user-images.githubusercontent.com/68575901/188519868-fbba8490-149a-4203-b7ee-4940ab86a9f3.png)
 ![Preview_2](https://user-images.githubusercontent.com/68575901/188519869-5f7f5e0e-2d29-4415-a64b-680c7455a028.png)
