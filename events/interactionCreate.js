@@ -108,9 +108,9 @@ module.exports = {
     } else if (interaction.customId == "sil") {
       interaction.reply(`Hikayeniz sonlandırılıyor..`).then(() => {
         setTimeout(() => {
-          if (interaction.channel.deletable) {
+          //if (interaction.channel.deletable) {
             interaction.channel.delete();
-          };
+          //};
         }, 3000);
       });
     } else if (interaction.customId == "bob-restart") {
@@ -712,7 +712,7 @@ module.exports = {
       await mesaj.edit({components: [goster]})
       interaction.reply({components: [row]})
     } else if (interaction.customId == "bob-bodrum-sag") {
-      c.bulkDelete(1)
+      c.bulkDelete(2)
       const row = new MessageActionRow()
         .addComponents(
           new MessageButton()
