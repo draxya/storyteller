@@ -106,7 +106,7 @@ module.exports = {
       await mesaj.edit({components: [goster]})
       interaction.reply({components: [row]})
     } else if (interaction.customId == "sil") {
-      interaction.reply(`Hikayeniz sonlandırılıyor..`).then(() => {
+      interaction.reply({content: `Hikayeniz sonlandırılıyor..`, ephemeral: true}).then(() => {
         setTimeout(() => {
           //if (interaction.channel.deletable) {
             interaction.channel.delete();
