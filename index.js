@@ -18,7 +18,6 @@ client.config = config;
 const chalk = require('chalk');
 const fs = require('fs');
 const moment = require('moment');
-const db = require('quick.db');
 require('dotenv').config();
 var prefix = config.prefix;
 const log = message => {
@@ -119,5 +118,14 @@ client.on('interactionCreate', async interaction => {
     });
   };
 });
+//
+
+client.on("guildMemberAdd", async (member) => {
+  member.roles.add(client.config.autorole);
+})
+
+client.on('messageCreate', async (message) => {
+  if (message.channel === client.channels.cache.get(client.config.arrivals)) { message.react('👋') }
+})
 
 client.login(process.env.token);
