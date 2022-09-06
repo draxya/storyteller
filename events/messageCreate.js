@@ -5,6 +5,7 @@ module.exports = {
   if(message.channel.type == "dm") return;
   if (message.author.bot) return;
   if(!message.guild) return;
+  if (message.channel === client.channels.cache.get(client.config.arrivals)) { message.react(':wave:') }
   if (!message.content.startsWith(client.config.prefix)) return;
   let command = message.content.split(' ')[0].slice(client.config.prefix.length);
   let params = message.content.split(' ').slice(1);
