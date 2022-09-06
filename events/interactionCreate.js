@@ -712,7 +712,7 @@ module.exports = {
       await mesaj.edit({components: [goster]})
       interaction.reply({components: [row]})
     } else if (interaction.customId == "bob-bodrum-sag") {
-      c.bulkDelete(2)
+      c.bulkDelete(1)
       const row = new MessageActionRow()
         .addComponents(
           new MessageButton()
