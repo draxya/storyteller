@@ -3,8 +3,6 @@ const config = require('../config.json');
 const { MessageActionRow, MessageSelectMenu, MessageEmbed, MessageButton, Client, Intents } = require('discord.js');
 const { joinVoiceChannel } = require('@discordjs/voice');
 
-var prefix = config.prefix;
-
 const moment = require('moment');
 module.exports = {
   name: 'ready',
