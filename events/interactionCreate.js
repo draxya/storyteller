@@ -131,11 +131,11 @@ module.exports = {
         });
     } else if (interaction.customId == "bob-bastan-basla") {
       await c.bulkDelete(2)
-      const goster = new MessageActionRow() //
-        .addComponents( //
-          new MessageButton() //
-          .setCustomId('go-bastan-basla').setLabel('Seçimleri göster.').setEmoji('👁').setStyle('SECONDARY'), //
-        ); //
+      const goster = new MessageActionRow()
+        .addComponents(
+          new MessageButton()
+          .setCustomId('go-bastan-basla').setLabel('Seçimleri göster.').setEmoji('👁').setStyle('SECONDARY'),
+        );
       msg = await mesaj.edit({
         content: `https://cdn.discordapp.com/attachments/1016099733686722682/1016100041678659644/DUNYADAKI_SON_INSANBOB.mp4`,
         components: [goster]
@@ -222,7 +222,7 @@ module.exports = {
       interaction.reply({components: [row]})
     } else if (interaction.customId == "bob-terminale-gir") {
       await c.bulkDelete(2)
-      const goster = new MessageActionRow() //
+      const goster = new MessageActionRow()
         .addComponents(
           new MessageButton()
           .setCustomId('go-terminal').setLabel('Seçimleri göster.').setEmoji('👁').setStyle('SECONDARY'),
@@ -252,11 +252,11 @@ module.exports = {
       interaction.reply({components: [row]})
     } else if (interaction.customId == "bob-terminal-kilidi-ac") {
       await c.bulkDelete(2)
-      const goster = new MessageActionRow() //
-        .addComponents( //
-          new MessageButton() //
-          .setCustomId('go-terminal-kilit').setLabel('Seçimleri göster.').setEmoji('👁').setStyle('SECONDARY'), //
-        ); //
+      const goster = new MessageActionRow()
+        .addComponents(
+          new MessageButton()
+          .setCustomId('go-terminal-kilit').setLabel('Seçimleri göster.').setEmoji('👁').setStyle('SECONDARY'),
+        );
       msg = await interaction.reply({
         content: `https://cdn.discordapp.com/attachments/1016099733686722682/1016441211898298410/KILIDI_ACMAYA_CALIS..mp4`,
         components: [goster]
@@ -282,11 +282,11 @@ module.exports = {
       interaction.reply({components: [row]})
     } else if (interaction.customId == "bob-terminal-hayir") {
       await c.bulkDelete(2)
-      const goster = new MessageActionRow() //
-        .addComponents( //
-          new MessageButton() //
-          .setCustomId('go-terminal-hayir').setLabel('Seçimleri göster.').setEmoji('👁').setStyle('SECONDARY'), //
-        ); //
+      const goster = new MessageActionRow()
+        .addComponents(
+          new MessageButton()
+          .setCustomId('go-terminal-hayir').setLabel('Seçimleri göster.').setEmoji('👁').setStyle('SECONDARY'),
+        );
       msg = await interaction.reply({
         content: `https://cdn.discordapp.com/attachments/1016099733686722682/1016441843858292856/HAYIR..mp4`,
         components: [goster]
@@ -384,11 +384,11 @@ module.exports = {
       }, 86000)
     } else if (interaction.customId == "bob-bodrumu-arastir") {
       await c.bulkDelete(2)
-      const goster = new MessageActionRow() //
-        .addComponents( //
-          new MessageButton() //
-          .setCustomId('go-bodrumu-arastir').setLabel('Seçimleri göster.').setEmoji('👁').setStyle('SECONDARY'), //
-        ); //
+      const goster = new MessageActionRow()
+        .addComponents(
+          new MessageButton()
+          .setCustomId('go-bodrumu-arastir').setLabel('Seçimleri göster.').setEmoji('👁').setStyle('SECONDARY'),
+        );
       msg = await interaction.reply({
         content: `https://cdn.discordapp.com/attachments/1016099733686722682/1016123081011515452/BODRUMU_ARASTIR..mp4`,
         components: [goster]
@@ -414,11 +414,11 @@ module.exports = {
       interaction.reply({components: [row]})
     } else if (interaction.customId == "bob-kapiyi-acmaya-calis") {
       await c.bulkDelete(2)
-      const goster = new MessageActionRow() //
-        .addComponents( //
-          new MessageButton() //
-          .setCustomId('go-kapiyi-acmaya-calis').setLabel('Seçimleri göster.').setEmoji('👁').setStyle('SECONDARY'), //
-        ); //
+      const goster = new MessageActionRow()
+        .addComponents(
+          new MessageButton()
+          .setCustomId('go-kapiyi-acmaya-calis').setLabel('Seçimleri göster.').setEmoji('👁').setStyle('SECONDARY'),
+        );
       msg = await interaction.reply({
         content: `https://cdn.discordapp.com/attachments/1016099733686722682/1016443843375284224/KAPIYI_ACMAYA_CALIS.mp4`,
         components: [goster]
@@ -444,11 +444,11 @@ module.exports = {
       interaction.reply({components: [row]})
     } else if (interaction.customId == "bob-bodrumda-bekle") {
       await c.bulkDelete(2)
-      const goster = new MessageActionRow() //
-        .addComponents( //
-          new MessageButton() //
-          .setCustomId('go-bodrumda-bekle').setLabel('Seçimleri göster.').setEmoji('👁').setStyle('SECONDARY'), //
-        ); //
+      const goster = new MessageActionRow()
+        .addComponents(
+          new MessageButton()
+          .setCustomId('go-bodrumda-bekle').setLabel('Seçimleri göster.').setEmoji('👁').setStyle('SECONDARY'),
+        );
       msg = await interaction.reply({
         content: `https://cdn.discordapp.com/attachments/1016099733686722682/1016446362683981904/BODRUMDA_BEKLE..mp4`,
         components: [goster]
@@ -474,11 +474,11 @@ module.exports = {
       interaction.reply({components: [row]})
     } else if (interaction.customId == "bob-bodrumda-bekle-1") {
       await c.bulkDelete(2)
-      const goster = new MessageActionRow() //
-        .addComponents( //
-          new MessageButton() //
-          .setCustomId('go-bodrumda-bekle-1').setLabel('Seçimleri göster.').setEmoji('👁').setStyle('SECONDARY'), //
-        ); //
+      const goster = new MessageActionRow()
+        .addComponents(
+          new MessageButton()
+          .setCustomId('go-bodrumda-bekle-1').setLabel('Seçimleri göster.').setEmoji('👁').setStyle('SECONDARY'),
+        );
       msg = await interaction.reply({
         content: `https://cdn.discordapp.com/attachments/1016099733686722682/1016449800352321597/BODRUMDA_BEKLEE..mp4`,
         components: [goster]
@@ -504,11 +504,11 @@ module.exports = {
       interaction.reply({components: [row]})
     } else if (interaction.customId == "bob-dedektif") {
       await c.bulkDelete(2)
-      const goster = new MessageActionRow() //
-        .addComponents( //
-          new MessageButton() //
-          .setCustomId('go-dedektif').setLabel('Seçimleri göster.').setEmoji('👁').setStyle('SECONDARY'), //
-        ); //
+      const goster = new MessageActionRow()
+        .addComponents(
+          new MessageButton()
+          .setCustomId('go-dedektif').setLabel('Seçimleri göster.').setEmoji('👁').setStyle('SECONDARY'),
+        );
       msg = await interaction.reply({
         content: `https://cdn.discordapp.com/attachments/1016099733686722682/1016455317585932429/DEDEKTIF_BOB..mp4`,
         components: [goster]
@@ -683,11 +683,11 @@ module.exports = {
       }, 60000)
     } else if (interaction.customId == "bob-bodrumda-bekle-2") {
       await c.bulkDelete(2)
-      const goster = new MessageActionRow() //
-        .addComponents( //
-          new MessageButton() //
-          .setCustomId('go-bodrumda-bekle-2').setLabel('Seçimleri göster.').setEmoji('👁').setStyle('SECONDARY'), //
-        ); //
+      const goster = new MessageActionRow()
+        .addComponents(
+          new MessageButton()
+          .setCustomId('go-bodrumda-bekle-2').setLabel('Seçimleri göster.').setEmoji('👁').setStyle('SECONDARY'),
+        );
       msg = await interaction.reply({
         content: `https://cdn.discordapp.com/attachments/1016099733686722682/1016450258668109824/BODRUMDA_BEKLEE._1.mp4`,
         components: [goster]
@@ -782,11 +782,11 @@ module.exports = {
       });
     } else if (interaction.customId == "bob-bodrum-kabul-et") {
       await c.bulkDelete(2)
-      const goster = new MessageActionRow() //
-        .addComponents( //
-          new MessageButton() //
-          .setCustomId('go-bodrum-kabul-et').setLabel('Seçimleri göster.').setEmoji('👁').setStyle('SECONDARY'), //
-        ); //
+      const goster = new MessageActionRow()
+        .addComponents(
+          new MessageButton()
+          .setCustomId('go-bodrum-kabul-et').setLabel('Seçimleri göster.').setEmoji('👁').setStyle('SECONDARY'),
+        );
       msg = await interaction.reply({
         content: `https://cdn.discordapp.com/attachments/1016099733686722682/1016447713971273880/KABUL_ET_1.mp4`,
         components: [goster]
@@ -812,11 +812,11 @@ module.exports = {
       interaction.reply({components: [row]})
     } else if (interaction.customId == "bob-bodrumu-arastir-xd") {
       await c.bulkDelete(2)
-      const goster = new MessageActionRow() //
-        .addComponents( //
-          new MessageButton() //
-          .setCustomId('go-bodrumu-arastir-xd').setLabel('Seçimleri göster.').setEmoji('👁').setStyle('SECONDARY'), //
-        ); //
+      const goster = new MessageActionRow()
+        .addComponents(
+          new MessageButton()
+          .setCustomId('go-bodrumu-arastir-xd').setLabel('Seçimleri göster.').setEmoji('👁').setStyle('SECONDARY'),
+        );
       msg = await interaction.reply({
         content: `https://cdn.discordapp.com/attachments/1016099733686722682/1016447510853730414/BODRUMU_ARASTIR._1.mp4`,
         components: [goster]
@@ -878,11 +878,11 @@ module.exports = {
       }, 40000)
     } else if (interaction.customId == "bob-sehir-merkezi") {
       await c.bulkDelete(2)
-      const goster = new MessageActionRow() //
-        .addComponents( //
-          new MessageButton() //
-          .setCustomId('go-sehir-merkezi').setLabel('Seçimleri göster.').setEmoji('👁').setStyle('SECONDARY'), //
-        ); //
+      const goster = new MessageActionRow()
+        .addComponents(
+          new MessageButton()
+          .setCustomId('go-sehir-merkezi').setLabel('Seçimleri göster.').setEmoji('👁').setStyle('SECONDARY'),
+        );
       msg = await interaction.reply({
         content: `https://cdn.discordapp.com/attachments/1016099733686722682/1016135082563616838/SEHIR_MERKEZI..mp4`,
         components: [goster]
@@ -945,11 +945,11 @@ module.exports = {
       }, 60000)
     } else if (interaction.customId == "bob-kurt-kac") {
       await c.bulkDelete(2)
-      const goster = new MessageActionRow() //
-        .addComponents( //
-          new MessageButton() //
-          .setCustomId('go-kurt-kac').setLabel('Seçimleri göster.').setEmoji('👁').setStyle('SECONDARY'), //
-        ); //
+      const goster = new MessageActionRow()
+        .addComponents(
+          new MessageButton()
+          .setCustomId('go-kurt-kac').setLabel('Seçimleri göster.').setEmoji('👁').setStyle('SECONDARY'),
+        );
       msg = await interaction.reply({
         content: `https://cdn.discordapp.com/attachments/1016099733686722682/1016141689586471043/KAC..mp4`,
         components: [goster]
@@ -975,11 +975,11 @@ module.exports = {
       interaction.reply({components: [row]})
     } else if (interaction.customId == "bob-arka-kapidan-cik") {
       await c.bulkDelete(2)
-      const goster = new MessageActionRow() //
-        .addComponents( //
-          new MessageButton() //
-          .setCustomId('go-arka-kapi').setLabel('Seçimleri göster.').setEmoji('👁').setStyle('SECONDARY'), //
-        ); //
+      const goster = new MessageActionRow()
+        .addComponents(
+          new MessageButton()
+          .setCustomId('go-arka-kapi').setLabel('Seçimleri göster.').setEmoji('👁').setStyle('SECONDARY'),
+        );
       msg = await interaction.reply({
         content: `https://cdn.discordapp.com/attachments/1016099733686722682/1016430140244373648/ARKA_KAPIDAN_CIK.mp4`,
         components: [goster]
@@ -1005,11 +1005,11 @@ module.exports = {
       interaction.reply({components: [row]})
     } else if (interaction.customId == "bob-arka-kapidan-cik-1") {
       await c.bulkDelete(2)
-      const goster = new MessageActionRow() //
-        .addComponents( //
-          new MessageButton() //
-          .setCustomId('go-arka-kapi-1').setLabel('Seçimleri göster.').setEmoji('👁').setStyle('SECONDARY'), //
-        ); //
+      const goster = new MessageActionRow()
+        .addComponents(
+          new MessageButton()
+          .setCustomId('go-arka-kapi-1').setLabel('Seçimleri göster.').setEmoji('👁').setStyle('SECONDARY'),
+        );
       msg = await interaction.reply({
         content: `https://cdn.discordapp.com/attachments/1016099733686722682/1016431901701062747/ARKA_KAPIDAN_CIK..mp4`,
         components: [goster]
@@ -1071,11 +1071,11 @@ module.exports = {
       }, 120000)
     } else if (interaction.customId == "bob-101-oda") {
       await c.bulkDelete(2)
-      const goster = new MessageActionRow() //
-        .addComponents( //
-          new MessageButton() //
-          .setCustomId('go-101-oda').setLabel('Seçimleri göster.').setEmoji('👁').setStyle('SECONDARY'), //
-        ); //
+      const goster = new MessageActionRow()
+        .addComponents(
+          new MessageButton()
+          .setCustomId('go-101-oda').setLabel('Seçimleri göster.').setEmoji('👁').setStyle('SECONDARY'),
+        );
       msg = await interaction.reply({
         content: `https://cdn.discordapp.com/attachments/1016099733686722682/1016436205749010462/101.ODA.mp4`,
         components: [goster]
