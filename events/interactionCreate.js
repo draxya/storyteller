@@ -4,7 +4,7 @@ module.exports = {
   name: 'interactionCreate',
   async execute(interaction, client) {
 
-    if (!interaction.isButton()) return;
+  if (!interaction.isButton()) return;
     c = interaction.channel
     if (interaction.customId == "bob-basla") {
       if (client.guilds.cache.get(interaction.guildId).channels.cache.find(c => c.topic == interaction.user.id)) {
