@@ -1,5 +1,6 @@
 ## 💻 storyteller
  Discord üzerinden choice-based oyun oynamanızı sağlayan interaction-sensitive bot. Bir hikaye seçer ve kaderinizi belirlersiniz. İyi eğlenceler!
+ Not: Muhteşem hikaye videosu için [Saniye](https://www.youtube.com/c/Saniyeyoutube)'ye teşekkürler!
  
 ![Preview](https://user-images.githubusercontent.com/68575901/188519868-fbba8490-149a-4203-b7ee-4940ab86a9f3.png)
 ![Preview_2](https://user-images.githubusercontent.com/68575901/188645762-2850802f-fffc-4b97-878e-bfdf8352d8ff.png)
