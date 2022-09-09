@@ -10,7 +10,21 @@ const {
 module.exports = {
   name: 'interactionCreate',
   async execute(interaction, client) {
+     if (!interaction.isCommand()) {
+      const command = client.commands.get(interaction.commandName);
+      if (!command) return;
 
+      try {
+        await command.execute(interaction, client, config);
+      } catch (error) {
+        console.error(error);
+        return interaction.reply({
+          content: 'There was an error while executing this command!',
+          ephemeral: true
+        });
+      };
+      return;
+     }
     if (!interaction.isButton()) return;
     const member = interaction.member
     if (member.roles.cache.some(role => role.id == client.config.blacklist)) { return interaction.reply({content: "Kara listede olduğunuz için maalesef botla etkileşime geçemezsiniz.", ephemeral: true}) };
