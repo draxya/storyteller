@@ -13,7 +13,7 @@ module.exports = {
 
     if (!interaction.isButton()) return;
     const member = interaction.member
-    if (member.roles.cache.some(role => role.id == client.config.blacklist)) { return interaction.reply({content: "Kara listede olduğunuz için maalesef botla etkileşime geçemezs.", ephemeral: true}) };
+    if (member.roles.cache.some(role => role.id == client.config.blacklist)) { return interaction.reply({content: "Kara listede olduğunuz için maalesef botla etkileşime geçemezsiniz.", ephemeral: true}) };
     c = interaction.channel
     sonmesaj = interaction.channel.lastMessageId
     const mesaj = await interaction.channel.messages.fetch(sonmesaj)
