@@ -13,7 +13,7 @@ module.exports = {
 
     if (!interaction.isButton()) return;
     const member = interaction.member
-    if (member.roles.cache.some(role => role.id == client.config.blacklist)) { return interaction.reply({content: "Kara listede olduğunuz için maalesef botla etkileşime geçemezsiniz.", ephemeral: true}) };
+    if (member.roles.cache.some(role => role.id == client.config.blacklist)) { return interaction.reply({content: "Kara listede olduğunuz için maalesef botla etkileşime geçemezs.", ephemeral: true}) };
     c = interaction.channel
     sonmesaj = interaction.channel.lastMessageId
     const mesaj = await interaction.channel.messages.fetch(sonmesaj)
@@ -54,8 +54,8 @@ module.exports = {
             iconURL: 'http://www.clker.com/cliparts/s/M/Z/W/2/W/my-stories-hi.png'
           })
           .setFooter({
-            text: client.config.footerText,
-            iconURL: client.guilds.cache.get('1016079791721545770').iconURL()
+            text: interaction.user.username,
+            iconURL: interaction.user.avatarURL()
           })
           .setDescription(`Çoğu insan gibi karısı ve çocuklarını geçindirmek için her gün işe giden ve onun için en önemli şey ailesi olan, sıradan ve sıkıcı bir hayatı olan Bob, daha önce hiç alışık olmadığı bir sabaha uyanmıştı. Evi bomboştu. Ailesi neredeydi? Etraf olması gerektiğinden daha sessizdi. Bob ne yapacağını bilemiyordu. Bob'un bu hikayesinde ona eşlik edecek misin?`)
           .setTimestamp();
