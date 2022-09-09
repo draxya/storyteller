@@ -20,13 +20,13 @@ module.exports = {
         }
       ])*/
 
-    const bob = client.channels.cache.get("1016467927236612176")
+    const bob = client.channels.cache.get(client.config.bobchannel)
     function sendbob() {
       const embed = new MessageEmbed()
         .setColor('GREEN')
         .setTitle('Dünyadaki Son İnsan Bob')
         .setDescription(`Çoğu insan gibi karısı ve çocuklarını geçindirmek için her gün işe giden ve onun için en önemli şey ailesi olan, sıradan ve sıkıcı bir hayatı olan Bob, daha önce hiç alışık olmadığı bir sabaha uyanmıştı. Evi bomboştu. Ailesi neredeydi? Etraf olması gerektiğinden daha sessizdi. Bob ne yapacağını bilemiyordu. Bob'un bu hikayesinde ona eşlik edecek misin?`)
-        .setFooter({ text: config.footerText, iconURL: client.guilds.cache.get('1016079791721545770').iconURL() })
+        .setFooter({ text: client.user.username, iconURL: client.user.avatarURL() })
       const row = new MessageActionRow()
         .addComponents(
           new MessageButton()
@@ -41,8 +41,6 @@ module.exports = {
         components: [row]
       })
     }
-
-
     setTimeout(() => {
       // sendbob()
     }, 250);
