@@ -322,8 +322,8 @@ module.exports = {
           iconURL: 'http://www.clker.com/cliparts/s/M/Z/W/2/W/my-stories-hi.png'
         })
         .setFooter({
-          text: client.config.footerText,
-          iconURL: client.guilds.cache.get('1016079791721545770').iconURL()
+          text: interaction.user.username,
+          iconURL: interaction.user.avatarURL()
         })
         .setDescription(`:scroll: Son: 8/10: İntihar`)
         .setTimestamp();
@@ -358,8 +358,8 @@ module.exports = {
           iconURL: 'http://www.clker.com/cliparts/s/M/Z/W/2/W/my-stories-hi.png'
         })
         .setFooter({
-          text: client.config.footerText,
-          iconURL: client.guilds.cache.get('1016079791721545770').iconURL()
+          text: interaction.user.username,
+          iconURL: interaction.user.avatarURL()
         })
         .setDescription(`:scroll: Son: 7/10: Kötü Son`)
         .setTimestamp();
@@ -552,8 +552,8 @@ module.exports = {
           iconURL: 'http://www.clker.com/cliparts/s/M/Z/W/2/W/my-stories-hi.png'
         })
         .setFooter({
-          text: client.config.footerText,
-          iconURL: client.guilds.cache.get('1016079791721545770').iconURL()
+          text: interaction.user.username,
+          iconURL: interaction.user.avatarURL()
         })
         .setDescription(`:scroll: Son: 10/10: Mutlu Dedektif Sonu`)
         .setTimestamp();
@@ -585,8 +585,8 @@ module.exports = {
           iconURL: 'http://www.clker.com/cliparts/s/M/Z/W/2/W/my-stories-hi.png'
         })
         .setFooter({
-          text: client.config.footerText,
-          iconURL: client.guilds.cache.get('1016079791721545770').iconURL()
+          text: interaction.user.username,
+          iconURL: interaction.user.avatarURL()
         })
         .setDescription(`:scroll: Son: 9/10: Mutsuz Dedektif`)
         .setTimestamp();
@@ -621,8 +621,8 @@ module.exports = {
           iconURL: 'http://www.clker.com/cliparts/s/M/Z/W/2/W/my-stories-hi.png'
         })
         .setFooter({
-          text: client.config.footerText,
-          iconURL: client.guilds.cache.get('1016079791721545770').iconURL()
+          text: interaction.user.username,
+          iconURL: interaction.user.avatarURL()
         })
         .setDescription(`:scroll: Son: 9/10: Mutsuz Dedektif`)
         .setTimestamp();
@@ -657,8 +657,8 @@ module.exports = {
           iconURL: 'http://www.clker.com/cliparts/s/M/Z/W/2/W/my-stories-hi.png'
         })
         .setFooter({
-          text: client.config.footerText,
-          iconURL: client.guilds.cache.get('1016079791721545770').iconURL()
+          text: interaction.user.username,
+          iconURL: interaction.user.avatarURL()
         })
         .setDescription(`:scroll: Son: 9/10: Mutsuz Dedektif`)
         .setTimestamp();
@@ -852,8 +852,8 @@ module.exports = {
           iconURL: 'http://www.clker.com/cliparts/s/M/Z/W/2/W/my-stories-hi.png'
         })
         .setFooter({
-          text: client.config.footerText,
-          iconURL: client.guilds.cache.get('1016079791721545770').iconURL()
+          text: interaction.user.username,
+          iconURL: interaction.user.avatarURL()
         })
         .setDescription(`:scroll: Son: 3/10: Başka Boyutlardan Gelen İnanılmaz Korkunç Canavar Sonu`)
         .setTimestamp();
@@ -919,8 +919,8 @@ module.exports = {
           iconURL: 'http://www.clker.com/cliparts/s/M/Z/W/2/W/my-stories-hi.png'
         })
         .setFooter({
-          text: client.config.footerText,
-          iconURL: client.guilds.cache.get('1016079791721545770').iconURL()
+          text: interaction.user.username,
+          iconURL: interaction.user.avatarURL()
         })
         .setDescription(`:scroll: Son: 1/10: Umutsuz Son`)
         .setTimestamp();
@@ -1045,8 +1045,8 @@ module.exports = {
           iconURL: 'http://www.clker.com/cliparts/s/M/Z/W/2/W/my-stories-hi.png'
         })
         .setFooter({
-          text: client.config.footerText,
-          iconURL: client.guilds.cache.get('1016079791721545770').iconURL()
+          text: interaction.user.username,
+          iconURL: interaction.user.avatarURL()
         })
         .setDescription(`:scroll: Son: 6/10: İyi Son`)
         .setTimestamp();
@@ -1111,8 +1111,8 @@ module.exports = {
           iconURL: 'http://www.clker.com/cliparts/s/M/Z/W/2/W/my-stories-hi.png'
         })
         .setFooter({
-          text: client.config.footerText,
-          iconURL: client.guilds.cache.get('1016079791721545770').iconURL()
+          text: interaction.user.username,
+          iconURL: interaction.user.avatarURL()
         })
         .setDescription(`:scroll: Son: 4/10: Ş̸̪̈́̇İ̶͍͕͑F̷̨̦͊̂Ŕ̸͈̦Ę̸̗͛͘`)
         .setTimestamp();
@@ -1147,8 +1147,8 @@ module.exports = {
           iconURL: 'http://www.clker.com/cliparts/s/M/Z/W/2/W/my-stories-hi.png'
         })
         .setFooter({
-          text: client.config.footerText,
-          iconURL: client.guilds.cache.get('1016079791721545770').iconURL()
+          text: interaction.user.username,
+          iconURL: interaction.user.avatarURL()
         })
         .setDescription(`:scroll: Son: 2/10: Yalnız Son`)
         .setTimestamp();
