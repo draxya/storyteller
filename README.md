@@ -24,7 +24,14 @@ Gereksinimleri yükleyin. Sisteminizde [`nodejs`](https://nodejs.org/en/) ve [`n
 $ npm install
 ```
 
-Çalıştırın.
+Bir `.env` dosyası oluşturun ve içine botunuzun token'ini girin.
+```bash
+token=superhavalimuhtesemdomuzcuk
+```
+
+Ben bir guide yazırlayana kadar `config.json` gibi dosyaları gezin ve değiştirmeniz gereken yerlerde değişiklik yapın.
+
+Ve çalıştırın.
 ```bash
 $ node .
 ```
